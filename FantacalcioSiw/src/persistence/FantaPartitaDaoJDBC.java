@@ -42,7 +42,7 @@ public class FantaPartitaDaoJDBC implements FantaPartitaDao {
 			statement.setLong(2, fantaPartita.getSquadraInCasa());
 			statement.setLong(3, fantaPartita.getSquadraOspite());
 			statement.setInt(4, fantaPartita.getRisultato());
-			statement.setInt(4, fantaPartita.getGiornata());
+			statement.setInt(5, fantaPartita.getGiornata());
 
 			statement.executeUpdate();
 		} catch (SQLException e)
