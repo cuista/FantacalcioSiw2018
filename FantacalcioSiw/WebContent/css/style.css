@@ -1,0 +1,28 @@
+body {
+	padding-top: 65px;
+}
+
+.navbar-brand, .navbar-nav > li > a
+{
+	height: 50px;
+	line-height: 30px;
+}
+
+.carousel-item
+{
+	min-height: 600px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.footer
+{
+	min-height: 150px;
+	background: #292054;
+	color: #ffffff
+}
+
+.tab-content
+{
+	min-height: 600px;
+}
