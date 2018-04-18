@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>registrazione</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- ADATTAMENTO MOBILE -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+	<!-- NAV-BAR -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #292054;">
+		<div class="container">
+			<span class="navbar-brand" href="#"> <img id="brand" src="img/brand_bianco.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+			</span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- gestisce il collasso degli elementi della barra -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<!-- ITEMs DI SINISTRA -->
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="gestioneSquadra.html">Gestione Squadra</a></li>
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false"> Dropdown </a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div></li>
+				</ul>
+
+				<!-- ITEMs DI DESTRA -->
+				<ul class="navbar-nav my-2 my-lg-0">
+					<li class="nav-item"><a class="nav-link" href="login.html">Log in <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="registrazione.html">Registrati</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- FORM REGISTRAZIONE -->
+	<div class="container-fluid">
+		<div class="text-center">
+			<div class="big-padding">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 offset-md-4 offset-sm-3">
+						<form class="form-signin">
+							<img class="mb-4" src="img/brand-nero.svg" alt="" width="72" height="72">
+							<h1 class="h3 mb-3 font-weight-normal">Registrati al Fantacalcio</h1>
+
+							<label for="inputUsername" class="sr-only">Username</label> <input type="text" id="inputUsername" class="form-control" placeholder="Username" required=""
+								autofocus="">
+
+							<div class="formItem-padding">
+
+								<label for="inputEmail" class="sr-only">Email address</label> <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required=""
+									autofocus="">
+							</div>
+							<div class="formItem-padding">
+
+								<label for="inputPassword" class="sr-only">Password</label> <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+							</div>
+							<div class="formItem-padding">
+
+								<label for="inputConfirmPassword" class="sr-only">Confirm Password</label> <input type="password" id="inputConfirmPassword" class="form-control"
+									placeholder="Confirm Password" required="">
+
+							</div>
+							<hr>
+
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Registrati</button>
+							<p class="mt-5 mb-3 text-muted">
+								<!-- Button trigger modal -->
+								<a type="text" data-toggle="modal" data-target="#TerminiCondizioniModalCenter">Termini e Condizioni</a> © Cuista 2018
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="TerminiCondizioniModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="ModalLongTitle">Termini e Condizioni</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body-terminiCondizioni">CONDIZIONI GENERALI DI CONTRATTO PER IL SERVIZIO  - Le seguenti Condizioni Generali di Contratto sono valide dal 20/06/2016 1. OGGETTO
+					1.1 Le presenti condizioni generali di contratto (di seguito âCGCâ) sono finalizzate a regolare i rapporti tra Italiaonline S.p.A., societÃ  con sede legale in
+					Assago (MI), via del Bosco Rinnovato, 8 20090 Milanofiori Nord, Palazzo U4, Milano,C.F. e Partita IVA: 03970540963(di seguito denominata "Italiaonline") e gli utenti
+					dei servizi di cui al paragrafo successivo resi per il tramite del portale www.libero.it (di seguito denominati "Utenti"). 1.2 Oggetto della presenti condizioni
+					generali sono, nello specifico, i seguenti servizi (di seguito congiuntamente âServiziâ): (a) Libero Mail, consistente nellâassegnazione allâUtente di una
+					casella di posta elettronica con 1 GB di spazio con antivirus e antispam, Jumbo Mail per inviare allegati fino a 2 GB, WebMail per consultare la posta, anche in
+					mobilitÃ ; (b) Servizi aggiuntivi (di qui in appresso denominati âServizi di Portaleâ, quali, a titolo esemplificativo e non esaustivo: Blog e siti personali),
+					lâaccesso ai quali Ã¨ subordinato allâutilizzo delle credenziali di accesso (email e password) alla predetta casella di posta elettronica. 1.3 A fronte della
+					fornitura dei Servizi, gli Utenti nellâesercizio della propria libertÃ  negoziale, conferiscono ad Italiaonline la facoltÃ  di inviare sulla casella di posta
+					elettronica attivata con Libero Mail comunicazioni o messaggi elettronici di natura commerciale, promozionale o pubblicitaria relativi a prodotti e servizi di soggetti
+					terzi (di seguito, gli âInserzionistiâ) selezionati da Italiaonline, per un numero massimo di 7 a settimana. 1.4. Dette controprestazioni, cui gli Utenti si
+					obbligano con la sottoscrizione delle presenti condizioni generali ferma la riconosciuta, libera ed incondizionata facoltÃ  di recesso di cui al successivo articolo 8,
+					integra ad ogni effetto il libero e consapevole esercizio delle prerogative decisionali previste a tutela dellâUtente dalle disposizioni sulle comunicazioni
+					elettroniche e/o a distanza previste dalle normative vigenti in materia di commercio elettronico (d.lgs. n. 70/2003), tutela del consumatore (d.lgs n. 206/2005 â
+					Codice del Consumo) e protezione dei dati personali (d.lgs. n. 196/2003 â Codice della Privacy). 1.5. Resta pertanto inteso, a tale fine, che lâeventuale esercizio
+					del diritto di opporsi in tutto allâulteriore invio via e-mail, sulla casella attivata con Libero Mail, di comunicazioni commerciali da parte di Italiaonline a norma
+					di una o tutte le disposizioni sopra richiamate, dovrÃ  intendersi a tutti gli effetti quale esercizio della facoltÃ  di recesso di cui al successivo articolo 8, ferma
+					la possibilitÃ  in tale caso, a richiesta dellâUtente che sia interessato al servizio a pagamento denominato Libero Mail Plus, di sottoscrivere le relative
+					condizioni generali mantenendo, allâesito del perfezionamento del contratto, lo stesso account di posta, le medesime credenziali di accesso fornite sulla base del
+					presente contratto e la possibilitÃ  di usufruire del Servizi di Portale. 2. CONDIZIONI CHE REGOLANO L'UTILIZZAZIONE DEI SERVIZI 2.1 Condizione necessaria per poter
+					utilizzare e usufruire dei Servizi Ã¨ l'accettazione ed il rispetto da parte degli Utenti delle presenti condizioni generali di contratto. 2.2 Le CGC vigenti sono
+					pubblicate e potranno essere in ogni momento verificate in questa pagina http://info.libero.it/cgc. 2.3 Gli Utenti prendono altresÃ¬ atto che alcuni Servizi di
+					Portale, per poter essere utilizzati potrebbero talora prevedere la preventiva presa visione e l'accettazione di specifiche condizioni speciali presenti all'interno
+					delle pagine dedicate ai Servizi di Portale. 2.4 Le presenti CGC non si estendono invece a tutti i c.d. Value Added Services, ossia quei servizi che pur presenti sul
+					Portale Libero sono forniti da partner esterni e regolati da loro condizioni contrattuali per la fruizione o l'acquisto dei quali Ã¨ previsto un corrispettivo
+					economico. 2.5 Italiaonline si riserva il diritto di modificare e/o aggiornare le presenti CGC relative ai singoli servizi, con preavviso di almeno 30 giorni
+					comunicato via e-mail, laddove possibile, o mediante avviso sul Portale Libero. Trascorso il periodo di preavviso le nuove modifiche e/o gli aggiornamenti alle CGC si
+					intenderanno accettate e pienamente efficaci nei confronti degli Utenti, fatto salvo il diritto degli stessi di recedere con effetto immediato in ogni momento secondo
+					quanto previsto al successivo articolo 8. 3. MODALITÃ DI UTILIZZO DEI SERVIZI 3.1 Il collegamento alla rete Internet per utilizzare i Servizi deve avvenire da un
+					personal computer, tramite modem, oppure mediante, tablet o telefono cellulare abilitato alla navigazione internet da rete mobile. I costi relativi al collegamento al
+					nodo sono a carico dell'Utente. L'Utente si fa carico della corretta configurazione del proprio computer, del modem e dell'installazione del software di collegamento.
+
+					3.2 L'Utente, sul Portale Libero, potrÃ  utilizzare attivamente Libero Mail e gli altri Servizi di Portale per accedere ai quali sarÃ  invece necessario autenticarsi
+					tramite specifico account. 3.3 In fase di registrazione verrÃ  richiesto allâUtente di fornire i propri dati al fine di poter creare lâaccount (di seguito
+					denominato âAccountâ). La veridicitÃ , la correttezza e accuratezza di tali dati Ã¨ ad esclusivo onere dellâUtente e quindi Italiaonline non Ã¨ da ritenersi in
+					alcun modo responsabile della veridicitÃ , correttezza e accuratezza dei dati di registrazione degli utenti. LâUtente, assumendo a proprio carico ogni
+					responsabilitÃ  in ipotesi di dichiarazione inveritiera o inesatta, garantisce la veridicitÃ  di tutti i dati personali forniti in fase di registrazione. Italiaonline
+					si riserva la facoltÃ  di non attivare, di sospendere o interrompere lâaccesso ai Servizi in qualsiasi momento qualora i dati comunicati dallâUtente risultino in
+					qualsiasi forma errati o incongruenti. 3.4 L'Utente adulto che intende permettere ai minori, su cui esercita la patria potestÃ , di accedere ai Servizi si impegna ad
+					assisterli nella creazione del loro Account e a controllare il loro accesso ai Servizi con la consapevolezza che il minore potrÃ  accedere a qualsiasi Servizio.
+					Conseguentemente rientra nella responsabilitÃ  dell'Utente adulto stabilire, in qualitÃ  di esercente la patria potestÃ , se e quando i Servizi, nonchÃ© i relativi
+					Contenuti, siano da ritenersi appropriati ad un minore. 3.5 SarÃ  richiesto inoltre, quale condizione necessaria per la fruizione di Libero Mail e dei Servizi di
+					Portale, di accettare le presenti CGC. Una volta concluso il processo di creazione dell'Account e accettate le presenti CGC, l'Utente potrÃ  accedere a tutti i
+					Servizi. 3.6 Per poter cancellare il proprio Account e dunque non usufruire piÃ¹ di tutti i Servizi, l'Utente dovrÃ  seguire la seguente procedura. La cancellazione
+					dell'Account, comporterÃ  automaticamente la rimozione della casella di posta elettronica, del Nickname di Community e di tutti i Nicknames legati all'Account, dei
+					messaggi, delle foto e dei contatti, dei siti personali, senza che sia piÃ¹ possibile recuperare alcuno dei propri files. Analogamente la rimozione che avvenga
+					spontaneamente da parte dell'Utente di uno o piÃ¹ contenuti comporta l'eliminazione definitiva del contenuto dai server di Italiaonline, senza che sia possibile per
+					quest'ultima recuperare o ripristinare in alcun modo detti files, anche dietro richiesta dell'Utente. Il presente Contratto non prevede, a carico di Italiaonline, un
+					onere specifico relativo al backup di dati e contenuti immessi dallâUtente, il quale pertanto dichiara di assumere a proprio carico lâonere di effettuazione
+					periodica di un back up su detti dati, esonerando Italiaonline da ogni responsabilitÃ  nella ipotesi in cui gli stessi possano essere eliminati dal medesimo Utente od
+					andare persi o distrutti. 3.7 Nel caso in cui l'Utente non acceda alla propria casella di posta elettronica per un periodo superiore a 120 giorni, Italiaonline si
+					riserva la facoltÃ  di disattivare la casella stessa. A partire dalla data di disattivazione, verrÃ  interrotta la ricezione di nuovi messaggi nella casella di posta
+					elettronica. Se l'Utente accede nuovamente alla casella di posta elettronica nel periodo successivo a quello sopra indicato (120 giorni) - ma comunque entro 270 giorni
+					dall'ultimo accesso - potrÃ  riattivare la propria casella di posta elettronica, ma non saranno in nessun caso recuperati i messaggi ricevuti dopo la disattivazione.
+					Se invece l'Utente non accede alla propria casella di posta elettronica per un periodo superiore a 270 giorni, Italiaonline si riserva la facoltÃ  di disattivare
+					definitivamente la casella stessa, mantenendo comunque riservato l'Account che potrÃ  essere riattivato in qualsiasi momento, entro i successivi 180 giorni. Qualora
+					l'Utente non acceda alla propria casella di posta elettronica, per tale ulteriore periodo di 180 giorni, Italiaonline si riserva la facoltÃ  di cancellare
+					definitivamente anche l'Account dell'Utente, che pertanto non potrÃ  piÃ¹ essere riattivato, e di consentire ad un altro Utente che lo richieda di utilizzare lo stesso
+					Account. La cancellazione definitiva dell'Account comporta la cancellazione da tutti i Servizi, nonchÃ¨ la cancellazione dei nick associati all'Account e di tutti gli
+					eventuali contenuti creati dai suddetti nick. 3.8 I Servizi sono destinati ad un uso esclusivamente non commerciale. 3.9 Italiaonline non acquisisce alcun diritto di
+					proprietÃ  sui contenuti degli Utenti. Dal momento in cui si rende accessibile un contenuto ad altri Utenti (indistintamente o per gruppo), attraverso i Servizi, si
+					dichiara di accettare che tutti gli utenti dispongano, a titolo gratuito e a fini personali, della facoltÃ  di visionare il contenuto sul Portale Libero o su altri
+					supporti elettronici di comunicazione collegati (ad es. versione mobile del portale) fino a quando il contenuto non venga eliminato dal Portale Libero. Egli Ã¨ d'altro
+					canto informato che, tenuto conto delle caratteristiche intrinseche di Internet, i contenuti trasmessi non sono protetti contro i rischi di ulteriore diffusione e/o
+					utilizzo e/o sviamento e/o di pirateria, dei quali Italiaonline non potrÃ  essere ritenuta responsabile. Spetta all'Utente, ove sia il caso, prendere tutte le misure
+					adeguate in modo da proteggere questi contenuti. 4. DIRITTI DEGLI UTENTI 4.1 Gli Utenti che accettano e rispettano quanto disposto nelle presenti CGC hanno diritto di
+					utilizzare tutti i Servizi di volta in volta disponibili e accessibili sul Portale Libero. 5. DOVERI RESPONSABILITÃ E GARANZIE DEGLI UTENTI 5.1 ResponsabilitÃ  degli
+					Utenti Gli Utenti che utilizzano i Servizi sono tenuti ad un comportamento costantemente improntato alla correttezza, diligenza e lealtÃ , anche al fine di poter
+					navigare ed utilizzare internet e i servizi che esso offre in maniera piÃ¹ sicura e consapevole. Gli Utenti sono infatti responsabili per tutte le attivitÃ  da loro
+					poste in essere attraverso i Servizi. In particolare gli Utenti si impegnano, in generale, a uniformarsi, nell'utilizzo dei Servizi di Portale: alle presenti CGC; alle
+					regole di comportamento che costituiscono la Netiquette; alle policy consigliate dalle maggiori organizzazioni antispam internazionali; alle leggi vigenti alle
+					eventuali condizioni speciali inerenti alcuni specifici Servizi di Portale. Gli Utenti sono informati del fatto che le immagini, i video, i messaggi, i testi, le
+					fotografie, i suoni e piÃ¹ in generale qualsiasi materiale o contenuto accessibile pubblicamente o trasmesso privatamente, rientra nella responsabilitÃ  esclusiva
+					dell'Utente, e piÃ¹ in generale dei soggetti da cui tali contenuti provengono. L'utente Ã¨ consapevole di essere lâunico responsabile della trasmissione e/o invio
+					e/o diffusione e/o pubblicazione con cui si rendono accessibili tramite i Servizi i contenuti (quali a titolo esemplificativo: post, testi, file, opinioni, materiali
+					fotografici, audio e video, informazioni ecc.) ad altri utenti, nonchÃ© dei comportamenti e delle interazioni con altri utenti e pertanto Italiaonline, non fornisce
+					alcuna garanzia, espressa o implicita, circa la legalitÃ , accuratezza ed affidabilitÃ  delle informazioni e dei contenuti trasmessi dagli utenti. Resta inteso che
+					Italiaonline inoltre non esercita alcun controllo preventivo sui contenuti sopradescritti trasmessi, diffusi e/o pubblicati tramite i Servizi offerti sul Portale
+					Libero, nÃ© sui comportamenti posti in essere dagli utenti. Italiaonline declina pertanto qualsiasi responsabilitÃ  in relazione ai contenuti e ad ogni altro
+					comportamento posto in essere dagli utenti che rimane dunque sotto la loro esclusiva responsabilitÃ . L'Utente riconosce che l'invio volontario e la pubblicazione da
+					parte sua di proprie immagini per la pubblicazione sul Portale Libero, costituisce una sua autonoma attivitÃ  riconducibile esclusivamente alla responsabilitÃ  del
+					medesimo Utente, che puÃ² comportare un trattamento di dati personali riferiti allâUtente e/o a terzi effettuato da Italiaonline solo ai fini dellâerogazione dei
+					Servizi richiesti, ai sensi e per gli effetti dell'articolo 24 del Codice della Privacy (d.lgs. n. 196/2003). Inoltre l'Utente dichiara e garantisce di aver acquisito
+					dagli interessati tutti i consensi necessari ai sensi del Codice Privacy e le autorizzazioni necessarie ai sensi della normative vigenti anche in materia di diritto
+					dâautore qualora il materiale di cui si richiede la pubblicazione contenga dati personali e/o sensibili, anche in forma di immagini e/o suoni, di terzi. Qualora le
+					informazioni abbiano carattere di stampa o stampato ex art. 1 legge 08/02/1948, n. 47 e successive modificazioni ed integrazioni, a queste si applicheranno le
+					disposizioni vigenti in materia. Gli Utenti si assumono ogni responsabilitÃ  su quanto trasmesso, diffuso, inviato a terzi e pubblicato, direttamente o a loro nome,
+					pubblicamente o privatamente tramite i Servizi. Italiaonline comunque, a proprio insindacabile giudizio e senza alcun preavviso, si riserva il diritto di intervenire
+					sui contenuti che costituiscano una violazione rispetto a quanto previsto nelle condizioni generali di contratto o che risultino offensivi, illegali, lesivi dei
+					diritti altrui e/o che rappresentino un danno, una violazione della privacy o della sicurezza di chiunque. In tali ultimi casi, l'utente prende atto altresÃ¬ che
+					Italiaonline potrÃ  inoltrare apposita segnalazione alle AutoritÃ  competenti, fornendo su richiesta di queste ultime, le informazioni in suo possesso che consentano
+					l'identificazione dell'utente, al fine di consentire alle suddette autoritÃ  di individuare, prevenire e reprimere attivitÃ  illecite. Italiaonline altresÃ¬ non Ã¨
+					responsabile se la navigazione dei siti o l'accesso agli spazi di discussione portano alla consultazione di informazioni ritenute non gradite. 5.2 Comportamenti e
+					attivitÃ  proibite agli Utenti In via esemplificativa e non esaustiva, gli Utenti, attraverso i Servizi si impegnano a: non servirsi o dar modo ad altri di servirsi
+					del Portale Libero e dei Servizi offerti da Italiaonline per danneggiare, violare o tentare di violare il segreto della corrispondenza e il diritto alla riservatezza;
+					non utilizzare i Servizi per effettuare comunicazioni o porre in essere attivitÃ  fraudolente o illecite (es. induzione o sfruttamento della prostituzione,
+					pubblicazione immagini pedopornografiche, promozione di giochi d'azzardo, minacciare, abusare, perseguitare altri Utenti ecc.) o che arrechino danni o turbative alla
+					rete e/o a terzi e/o a Italiaonline o che in generale violino e/o inducano a violare le leggi ed i regolamenti vigenti o disposizioni legittimamente impartite dalla
+					Pubblica AutoritÃ ; non trasmettere, distribuire o pubblicare contenuti a carattere pedopornografico, pornografico, a sfondo sessuale e/o di natura oscena; non
+					trasmettere, distribuire o pubblicare qualsiasi tipo di materiale che violi i diritti di terzi (es. diritti di proprietÃ  intellettuale ed industriale, diritti di
+					proprietÃ  di eventuali esecutori, diritti morali, diritti di pubblicazione o altri eventuali diritti di qualsivoglia terzo, o che possa costituire concorrenza
+					sleale); non trasmettere, distribuire o pubblicare materiale contrario all'ordine pubblico e che promuove o fornisce informazioni che istruiscano su attivitÃ 
+					illegali, inducano a attivitÃ  illegali o che possano causare pregiudizio a terzi; non fornire materiale di qualsiasi tipo che possa risultare in qualsiasi modo
+					offensivo, inclusi anche attraverso contenuti blasfemi e/o che incitano alla violenza o a forme di bullismo, espressioni ingiuriose diffamatorie o di fanatismo,
+					razzismo, odio o irriverenza ai danni di qualsiasi gruppo o individuo; non istigare la copia illegale o non autorizzata delle opere di terzi protette da diritti, ad
+					esempio offrendo programmi per computer contraffatti o collegamenti a tali programmi, offrendo informazioni relative alla disattivazione dei dispositivi di protezione
+					dalla copia installati dai produttori oppure offrendo brani musicali contraffatti/"pirata" o collegamenti a file che includono questi ultimi; non pubblicare contenuti
+					appartenenti a terzi senza indicazione specifica del link cui fa riferimento il post originario; non minacciare, diffamare, offendere, calunniare, molestare,
+					perseguitare o abusare o incitare altri a compiere tali azioni; non fornire informazioni o promuovere attivitÃ  individuali o di gruppo finalizzate alla realizzazione
+					di danni a cose o persone; non trasmettere, distribuire o pubblicare materiale che costituisca trattamento illecito di dati personali o viola le leggi sul controllo
+					delle esportazioni; non trasmettere, distribuire, pubblicare sollecitare iniziative legate al gioco d'azzardo, manifestazioni a premi, giochi che abbiano fini
+					esclusivamente commerciali e che richiedono una partecipazione a titolo oneroso e/o autorizzazione da parte dell'AAMS; non propagandare o sponsorizzare qualsiasi
+					prodotto o servizio e/o offrire in vendita qualsiasi prodotto o servizio salvo i casi in cui ciÃ² sia stato espressamente autorizzato da Italiaonline; non recare
+					danno, disattivare, sovraccaricare i Servizi; non trasmettere e/o pubblicare materiale non originale e/o che includa informazioni notoriamente false e/o ingannevoli
+					che possano arrecare un pregiudizio a terzi; non pubblicare contenuti se non si Ã¨ maggiorenni, eccetto che non si sia in presenza di un genitore, ed in generale non
+					trattare argomenti non adatti a ragazzi di etÃ  inferiore ai 18 anni; non svolgere qualsiasi attivitÃ  che abbia quale esclusivo o principale fine quello di eludere le
+					previsioni contenute nelle presenti CGC (ad esempio, sviluppare pagine di soli link a siti con contenuti non ammessi dalle presenti CGC, manipolare i contenuti di
+					accesso o le statistiche delle pagine piÃ¹ visitate, ecc.); non pubblicare contenuti criptati, software che consentano l'anonimato sulla rete internet o pagine o file
+					nascosti non raggiungibili tramite un link; non fornire file di qualsiasi tipo anche con accesso tramite password, o file nascosti senza un link sulla propria pagina
+					personale che possa condurre ad essi o includere pagine la cui accessibilitÃ  Ã¨ limitata; non usare la propria pagina o directory come deposito di file o come
+					archivio per file utilizzati da altri server; non memorizzare nel proprio spazio web file di tipo eseguibile (.exe, .com, .bat, ecc.); non visualizzare banner
+					pubblicitari o qualsiasi altra forma di sollecitazione non richiesta ed indesiderata; non rendere pubbliche informazioni personali proprie o di terzi (es. numeri di
+					cellulare, e-mail, domicilio, cognome ecc.) oppure utilizzare i Servizi per richiedere dati personali di terzi ed in particolare di minorenni; non attribuirsi
+					l'identitÃ  di un altro Utente oppure di un dipendente, gestore, moderatore o altro membro del team di Italiaonline con l'intento di ingannare o arrecare danni ad
+					altri; non vendere o trasferire ad altri, a qualsiasi titolo, il proprio profilo Utente; non utilizzare i Servizi per la trasmissione o lo scambio di software,
+					informazioni o altro materiale contenente virus o componenti dannosi e link esca, oppure per effettuare l'invio di lettere a catena, mailbombing, eccessivo
+					crossposting; non pubblicizzare, trasmettere o altrimenti rendere disponibile qualsiasi tipo di software, programma, prodotto o servizio che viola le presenti CGC,
+					incluso istruzioni per la trasmissione di spam, flooding, o attacchi di denial of service; non procedere all'invio massivo di mail non richieste (di seguito indicato
+					come "spam"). La spedizione di qualsiasi forma di spam attraverso la rete e attraverso l'Account di posta elettronica di Libero Ã¨ proibita; non inviare spam per
+					pubblicizzare siti utilizzando indirizzi e-mail o qualsiasi altra risorsa offerta dalla rete o dai Servizi. L'Account e i Servizi non possono essere utilizzati per
+					raccogliere risposte a messaggi spediti da altri Internet Service Provider se questi messaggi violano queste CGC o le policy di altro Internet Service Provider; non
+					gestire mailing list con iscrizione non confermata. Ã infatti proibito iscrivere indirizzi e-mail a qualsiasi mailing list senza l'espresso e verificabile consenso
+					del proprietario dell'indirizzo e-mail. Tutte le mailing list gestite dagli Utenti dovranno prevedere il meccanismo della conferma di iscrizione. Il messaggio di
+					conferma della sottoscrizione ricevuto dal titolare di ogni indirizzo e-mail dovrÃ  essere mantenuto in un file per tutta l'esistenza della mailing list; non
+					acquistare liste di indirizzi e-mail da terze parti per effettuare invii di e-mail da qualsiasi dominio ospitato da Libero, o riconducibile a qualsiasi Account di
+					Libero; non gestire un Account per conto di, o in collaborazione con, altre persone; non rivendere i Servizi a persone o aziende incluse nel registro delle attivitÃ 
+					di spam conosciuto (Spamhaus Register of Known Spam Operations) (ROKSO) su http://www.spamhaus.org, ed in generale a terzi; non avere accesso (o tentare di avere
+					accesso) ad alcuno dei Servizi tramite programmi o servizi automatizzati o comunque tramite qualsiasi mezzo diverso dall'interfaccia del Portale di Libero o dai
+					software forniti da Italiaonline; non utilizzare nÃ¨ link esca per svolgere attivitÃ  illecite nÃ¨ file o programmi creati per interrompere, distruggere o limitare il
+					funzionamento dei software, degli hardware o degli impianti di telecomunicazioni di Italiaonline o di terzi. 5.3 Provvedimenti Gli Utenti sono informati sin da ora
+					che: Â· nel caso in cui Italiaonline venga a conoscenza, in qualsiasi modo (tramite il servizio "Segnala Abusi" di cui al successivo articolo 7.2, diffide,
+					rivendicazioni, pretese e/o domande di terzi, ecc.) di una violazione da parte degli Utenti delle disposizioni e garanzie descritte ai precedenti articoli 5.1 e 5.2,
+					oppure di un utilizzo dei Servizi in difformitÃ  da quanto previsto nelle presenti CGC; oppure Â· qualora Italiaonline venga a conoscenza, in qualsiasi modo di
+					contenuti che, a proprio insindacabile giudizio, possano essere causa di danni a terzi o a sÃ©; oppure Â· in caso di richiesta da parte di AutoritÃ  competenti;
+
+					Italiaonline potrÃ , a propria discrezione e senza preavviso, fatto salvo ogni altro rimedio previsto dalla legge, ivi incluso il diritto di risolvere le presenti CGC
+					ed il risarcimento dei danni subiti, assumere ogni iniziativa ritenuta opportuna e/o necessaria, ivi compreso: Â· sospendere e/o eliminare tutti i materiali, le
+					informazioni, le trasmissioni o i contenuti illeciti, inopportuni o contrari alle CGC Â· sospendere e/o cessare in qualsiasi momento la fornitura dei Servizi
+					all'Utente che abbia posto in essere i comportamenti in violazione; Â· sospendere il profilo dell'Utente ed eventuali profili associati, nonchÃ© l'intero blog, sito,
+					videogallery, fotogallery nel caso di pregresse e reiterate violazioni delle CGC ; Â· chiudere la casella mail dell'Utente in caso in cui sia accertata un'attivitÃ  di
+					spamming; Â· impedire o porre fine alle violazione secondo le modalitÃ  eventualmente impartite dalle AutoritÃ  competenti. L'Utente prende atto altresÃ¬ che, nel caso
+					in cui Italiaonline dovesse venire a conoscenza di presunte attivitÃ  illecite effettuate dall'Utente stesso, Italiaonline potrÃ  inoltrare apposita segnalazione alle
+					AutoritÃ  competenti, fornendo, su richiesta di queste ultime, le informazioni in suo possesso che consentano l'identificazione dell'Utente, al fine di consentire alle
+					suddette AutoritÃ  di individuare, prevenire e reprimere attivitÃ  illecite. 5.4 IdentitÃ  dell'Utente. Conservazione, modifica e cancellazione dell'Account Gli Utenti
+					s'impegnano a conservare con la dovuta diligenza e mantenere segreto il proprio Account (che comprende User ID/email e password) ed i propri dati personali e ad
+					impedire che terzi possano utilizzare il proprio Account per accedere ed utilizzare i Servizi. LâUtente Ã¨ tenuto a scegliere una password di non facile
+					individuazione ed a verificare che non sia recuperabile tramite domande/risposte segrete che possano essere note a terzi. Per motivi di sicurezza si consiglia agli
+					Utenti di cambiare periodicamente la password. A tale proposito lâUtente ha la possibilitÃ  di impostare il cambio password ogni 180 giorni e prende atto che
+					Italiaonline si riserva la facoltÃ  di chiedere una modifica della password qualora ritenga necessaria tale operazione per la tutela dei Servizi e dei dati ivi
+					contenuti. La conoscenza dell'Account della relativa password da parte di terzi consentirÃ  infatti a questi ultimi di utilizzare i Servizi in loro nome. In
+					particolare, lâUtente si impegna a: (i) conservare con la massima diligenza e riservatezza le credenziali, mantenendo segreta la Password, e non consentirne
+					lâutilizzo a terzi non autorizzati; (ii) sporgere immediatamente denuncia alle AutoritÃ  competenti, in caso di smarrimento o sottrazione delle credenziali, e
+					richiederne lâimmediata disabilitazione, anche nel caso in cui lâUtente ritenga possibile che le stesse siano venute abusivamente a conoscenza di terzi; (iii)
+					esonerare Italiaonline in ipotesi di utilizzo improprio delle credenziali, assumendo a tale fine ogni responsabilitÃ  anche nei confronti dei terzi in relazione ai
+					danni che ne dovessero a qualsiasi titolo derivare, ed assumendo a proprio carico ogni onere o costo, ivi comprese le spese legali; (iv) in caso di smarrimento o
+					disabilitazione delle credenziali, procedere alla generazione della nuova password tramite la apposita funzionalitÃ  disponibile sul Portale Libero. L'Utente Ã¨
+					informato del fatto che risponderÃ  e sarÃ  ritenuto pienamente responsabile del comportamento, dei contenuti immessi nella rete o diffusi, ed in generale delle
+					attivitÃ  tutte poste in essere da detti soggetti terzi tramite i Servizi, che saranno pertanto a lui attribuibili in virtÃ¹ dell'Account, anche ai sensi dei
+					precedenti articoli 5.1, 5.2 e 5.3. Gli Utenti potranno modificare in qualunque momento i propri dati associati all'Account nell'area di Self Care. Inoltre in caso di
+					smarrimento, furto e/o illegittimo utilizzo di password, gli Utenti potranno recuperare la password seguendo le procedure indicate. Fermo quanto previsto dal
+					precedente art. 3.3, Ã¨ importante che i dati di registrazione siano veritieri e corretti poichÃ© in alcuni casi potrebbero essere condizione necessaria per il
+					recupero della password. In caso di richiesta di cancellazione dell'Account e relativa casella di posta elettronica gli Utenti potranno seguire la procedura indicata.
+
+					Resta inteso che Italiaonline fornirÃ  i dati personali dell'Utente oppure intraprenderÃ  azioni sulla casella di posta elettronica dell'Utente, unicamente a fronte di
+					espressa richiesta proveniente dalle competenti AutoritÃ  per effetto di formale denuncia sporta dall'Utente. L'utente prende atto che Italiaonline si riserva la
+					facoltÃ  di chiedere una modifica della password qualora ritenga necessaria tale operazione per la tutela dei Servizi e dei dati ivi contenuti. 5.5 Utilizzazione di
+					hardware e software per la fruizione dei Servizi Gli Utenti garantiscono di avere la titolaritÃ  e/o le licenze e/o, comunque, di aver ottenuto il consenso
+					all'utilizzazione degli impianti e/o componenti hardware e software necessari per usufruire dei Servizi, nonchÃ© l'esattezza e veridicitÃ  di tutti i dati e le
+					informazioni relativi a detti impianti forniti a Italiaonline. 5.6 Uso non commerciale dei Servizi I Servizi sono destinati ad un uso non commerciale. L'Utente si
+					impegna a non riprodurre, duplicare, copiare, distribuire i contenuti e i materiali presenti sul Portale Libero per fini commerciali, nÃ© ad utilizzare i Servizi per
+					raccolte di denaro non autorizzate da Italiaonline. Ogni accertato utilizzo dei Servizi e di detti contenuti a tali fini potrÃ  determinare la risoluzione delle
+					presenti CGC e la conseguente interruzione dell'erogazione dei Servizi. 5.7 Back up di dati In quanto parte dell'innovazione e/o della necessaria manutenzione delle
+					proprie infrastrutture Italiaonline, malgrado faccia di tutto affinchÃ© i Servizi siano offerti senza interruzioni, con puntualitÃ , in modo sicuro o esente da errori,
+					informa gli Utenti sulla possibilitÃ  che si verifichino problemi che non consentano l'accesso continuo, ininterrotto e stabile alla rete e che pertanto impediscano
+					anche la fruizione dei Servizi ovvero determinino la corruzione o la perdita di dati e contenuti. Per questa ragione Italiaonline, anche nell'ambito dei servizi di
+					posta elettronica, fermi gli oneri e le responsabilitÃ  previste in proposito dal precedente art. 3.6, invita gli Utenti ad eseguire periodicamente back up dei dati e
+					ad implementare politiche di salvaguardia dei propri dati e contenuti non definendo la casella e-mail quale "single point of failure". Lâutente Ã¨ quindi informato
+					ed accetta che Italiaonline fornisce il proprio servizio âcom'Ã¨", "con i possibili difetti" e "come disponibile". Italiaonline non garantisce l'accuratezza o la
+					tempestivitÃ  delle informazioni disponibili tramite i servizi. L'utente dÃ  atto e accetta che i sistemi informatici e di telecomunicazione non siano a tolleranza
+					d'errore e che si verifichino tempi di inattivitÃ . Italiaonline non puÃ² garantire che i servizi saranno ininterrotti, puntali, sicuri, o esenti da errori. 5.8
+					Manleva Gli Utenti saranno tenuti a manlevare Italiaonline, estromettendola dagli eventuali procedimenti giudiziari, e mantenendola indenne da ogni perdita, danno,
+					responsabilitÃ , pretesa generata da terzi, costo o spesa, incluse le spese legali, derivanti da ogni comportamento posto in essere dall'Utente in violazione delle
+					previsioni contenute nelle presenti CGC, anche successivamente allo scioglimento e/o cessazione per qualsiasi ragione delle presenti CGC. 6. DIRITTI E DOVERI DI
+					ITALIAONLINE VERSO GLI UTENTI 6.1 Gestione dei Servizi. Modifiche ai Servizi Italiaonline si riserva il diritto di modificare, sospendere, o interrompere
+					(temporaneamente o permanentemente) in qualsiasi momento la forma e la natura dei Servizi esistenti senza che per questo motivo gli Utenti possano maturare il diritto
+					al riconoscimento di alcun rimborso, indennizzo o risarcimento. Italiaonline darÃ  semplice comunicazione agli Utenti delle modifiche ai Servizi attraverso il Portale
+					Libero. Italiaonline si riserva ad ogni modo la facoltÃ  di stabilire in qualsiasi momento limiti fissi massimi per la fornitura di qualsiasi Servizio, inclusi il
+					numero di trasmissioni che un Utente puÃ² inviare o ricevere tramite i Servizi stessi e l'ammontare di spazio di memoria. Italiaonline si riserva la facoltÃ  di non
+					veicolare i messaggi di posta elettronica provenienti da fonti note di spam eventualmente presenti in black list accreditate oppure che non superino i controlli dei
+					sistemi automatici antispam di Italiaonline. 6.2 Rapporti con l'AutoritÃ  Giudiziaria e obbligo di "disclosure" verso i terzi Italiaonline manterrÃ  riservati i dati
+					personali ed identificativi forniti dagli Utenti, garantendo altresÃ¬ la riservatezza delle comunicazioni effettuate attraverso il servizio di posta elettronica. Gli
+					Utenti prendono atto ed accettano che Italiaonline mantiene e conserva un registro dei collegamenti (log). Il registro dei collegamenti potrÃ  essere esibito solo a
+					fronte di esplicito provvedimento dell'AutoritÃ  Giudiziaria, anche nei casi di cui all'articolo 5.3. Italiaonline potrÃ  rivelare comunicazioni effettuate attraverso
+					i propri Servizi, nonchÃ© dati personali ed identificativi forniti dagli Utenti solo ed esclusivamente nel caso in cui tali dati siano espressamente richiesti da parte
+					dell'AutoritÃ  Giudiziaria o vi siano delle evidenze sulla commissione di illeciti. Inoltre Italiaonline consentirÃ  agli Utenti di utilizzare come proprio indirizzo
+					di posta elettronica anche uno pseudonimo. In tale ipotesi, Italiaonline potrÃ  associare a questo pseudonimo, lâidentitÃ  dell'Utente cosÃ¬ come dichiarata in fase
+					di registrazione in modo da poter fornire, in caso di formale richiesta da parte dell'AutoritÃ  Giudiziaria, le informazioni in proprio possesso per poter perseguire i
+					reati eventualmente perpetrati tramite i Servizi o piÃ¹ in generale tramite la rete. Ã fatta salva ad ogni modo la facoltÃ  di Italiaonline di trasmettere detti dati
+					a soggetti che siano stati eventualmente delegati ad espletare uno o piÃ¹ dei Servizi o altri servizi connessi e che abbiano sottoscritto all'uopo un impegno di
+					riservatezza. 6.3 Rapporti e transazioni tra gli Utenti e gli Inserzionisti presenti sul Portale Libero Gli Utenti nonchÃ© i Servizi potranno fornire collegamenti
+					(link) ad altri siti o risorse dal Web. Gli Utenti sono informati e concordano che Italiaonline non puÃ² in nessun modo essere ritenuta responsabile per il contenuto,
+					la pubblicitÃ , i servizi, i prodotti appartenenti a terzi e presenti o commercializzati sul Portale Libero o su altri siti internet ad esso collegati tramite link. Le
+					transazioni effettuate dagli Utenti con gli inserzionisti presenti sul Portale Libero o altro sito internet, la consegna e il pagamento di beni o servizi, la
+					prestazione di garanzie ed ogni altro elemento connesso con le transazioni producono effetti esclusivamente tra l'Utente e l'inserzionista. Italiaonline Ã¨
+					completamente estranea alla transazione commerciale. Gli Utenti riconoscono pertanto che Italiaonline non potrÃ  essere ritenuta in nessun modo responsabile in ordine
+					ad eventuali problemi connessi o derivanti, direttamente e indirettamente, dalla transazione e dalla qualitÃ  dei beni e/o dei servizi eventualmente acquistati. 7.
+					RESPONSABILITÃ DI ITALIAONLINE E SEGNALAZIONE ABUSI 7.1 ResponsabilitÃ  di Italiaonline in qualitÃ  di Internet Service Provider Italiaonline, in qualitÃ  di
+					"Internet Service Provider", nell'ambito delle attivitÃ  tutte svolte al fine di offrire agli Utenti i Servizi, Ã¨ soggetta alla normativa vigente in materia di
+					commercio elettronico (D. Lgs. 70/2003 e successive modificazioni ed integrazioni). Nello specifico, Italiaonline, ai sensi dell'articolo 17 del citato D. Lgs.
+					70/2003, non Ã¨ tenuta ad un obbligo generale di sorveglianza su ciÃ² che trasmette o memorizza, nÃ© ad un obbligo generale di ricercare attivamente fatti o
+					circostanze che indichino la presenza di attivitÃ  illecite. Pertanto Italiaonline non potrÃ  impedire comportamenti scorretti da parte degli Utenti, nÃ© controllerÃ 
+					i contenuti e materiali trasmessi, di cui non puÃ² quindi garantire liceitÃ , veridicitÃ , correttezza e qualitÃ . Ne consegue che i comportamenti e/o contenuti e
+					materiali trasmessi attraverso i Servizi rientrano nella responsabilitÃ  esclusiva dell'Utente, e che Italiaonline non potrÃ  essere ritenuta responsabile per quei
+					contenuti che possano risultare, a qualsiasi titolo o ragione, illeciti, abusivi, illegittimi, offensivi, e piÃ¹ in generale in violazione delle presenti CGC delle
+					Regole D'Uso. 7.2 Servizio "Segnala Abusi" per i Servizi Per assicurare quanto piÃ¹ possibile il continuo rispetto da parte di tutti gli Utenti delle normative
+					vigenti, ed in particolare del D. Lgs. 70/2003, delle presenti CGC e delle Regole d'Uso che disciplinano la fruizione dei Servizi, Italiaonline ha predisposto uno
+					specifico sistema di segnalazione abusi, denominato "Segnala Abusi", di cui l'Utente potrÃ  avvalersi per comunicare a Italiaonline eventuali violazioni perpetrate
+					attraverso i Servizi. AffinchÃ© tale sistema possa funzionare correttamente, Ã¨ necessaria la collaborazione di tutti gli Utenti, che pertanto sono invitati a
+					segnalare, attraverso gli strumenti sotto elencati, ogni eventuale violazione riscontrata nell'ambito dei Servizi, contribuendo a far sÃ¬ che tutti i materiali ed i
+					comportamenti degli Utenti stessi rispettino sempre le normative vigenti, le presenti CGC. In particolare: â¢ qualora l'Utente sia registrato al Portale Libero con un
+					proprio Account, potrÃ  segnalare eventuali violazioni (ad es. violazione di identitÃ  nei profili, messa on line di (i) video senza il necessario consenso, (ii) foto
+					pedopornografiche, (iii) post con contenuti particolarmente offensivi, (iv) blog con contenuti non conformi alle CGC, (v) recensioni con espressioni volgari e
+					offensive, ecc.), con espressa esclusione della messaggistica privata, facendo clic sul link "segnala abusi" presente in maniera visibile accanto ai contenuti creati
+					dagli Utenti. Per i servizi di mailing (ad esempio spam, link esca, mailing list, ecc.), la segnalazione dovrÃ  essere fatta all'indirizzo e-mail
+					abuse@staff.libero.it; â¢ esclusivamente nel caso in cui il segnalante non sia un utente registrato, la segnalazione sulla violazione sui diritti di proprietÃ 
+					intellettuale e/o industriale e/o sul trattamento dei propri dati personali senza aver dato il consenso dovrÃ  essere fatta all'indirizzo e-mail abuse@staff.libero.it
+					indicando i comportamenti che costituiscono o possano integrare tali violazioni o comportamenti illeciti. Qualunque altro tipo di violazione segnalato a questo
+					indirizzo non verrÃ  preso in considerazione. Gli Utenti sono informati che, a seguito di una segnalazione da parte di terzi tramite il sistema di "Segnala Abuso"
+					oppure sulla casella di posta abuse@staff.libero.it , Italiaonline potrÃ  porre in essere i provvedimenti meglio descritti al precedente articolo 5.3. Per maggiori
+					informazioni su come vengono gestiti gli abusi Ã¨ possibile visitare la pagina http://info.libero.it/segnala_abuso/ 7.3 ResponsabilitÃ  PoichÃ© alcuni dei contenuti
+					presenti in Internet possono essere considerati rivolti ad un pubblico adulto, o possono comunque contenere argomenti ritenuti offensivi per alcune persone,
+					Italiaonline avverte che le ricerche, in modo automatico e non intenzionale, possono generare link o riferimenti a tali informazioni e non se ne assume alcuna
+					responsabilitÃ . L'Utente Ã¨ informato e concorda che Italiaonline non puÃ² in nessun modo essere ritenuta responsabile per il contenuto, la pubblicitÃ , i servizi, i
+					prodotti appartenenti a terzi e presenti o commercializzati sul Portale Libero o su altri siti internet ad esso collegati tramite link e le eventuali transazioni poste
+					in essere secondo quanto previsto dal precedente articolo 6.3. Fermo restando quanto previsto dalle normative imperative di legge, Italiaonline non sarÃ  responsabile
+					verso l'Utente, nonchÃ© verso soggetti direttamente o indirettamente loro connessi e verso i terzi per i danni, le perdite di profitti e i costi sopportati in
+					conseguenza di sospensioni, interruzioni, ritardi, malfunzionamenti dei Servizi. 8. DURATA DELLE CGC, RECESSO E CESSIONE DELLE CGC 8.1 Le presenti CGC hanno durata
+					illimitata e saranno valide ed efficaci a partire dalla data in cui verrÃ  eseguita la registrazione dell'Account e l'Utente sarÃ  quindi registrato sul Portale
+					Libero. In particolare saranno valide ed efficaci dal momento della loro accettazione che avverrÃ  in modalitÃ  elettronica cliccando sul bottone "REGISTRATI"
+					posizionata vicino alla seguente affermazione, da selezionare, "accetto le Condizioni Generali e le Norme sulla Privacy" al termine del processo di registrazione
+					dell'Account. Una volta accettate le CGC, l'Utente sarÃ  registrato al Portale Libero e potrÃ  fruire di tutti i Servizi offerti oggetto delle presenti CGC. 8.2 Fermo
+					quanto indicato allâart.1.5, gli Utenti hanno diritto di recedere in ogni momento con effetto immediato, dandone comunicazione a Italiaonline richiedendo la
+					cancellazione dal proprio Account dal Portale Libero secondo la procedura descritta al precedente articolo 5.4. 8.3 A seguito della comunicazione dellâesercizio
+					della facoltÃ  di recesso da parte dell'Utente anche ai sensi di quanto previsto dallâart. 1.5, Italiaonline provvederÃ  a disattivare lâAccount di posta
+					dellâUtente e a disabilitare l'accesso ai Servizi di Portale, e a cessare ogni trattamento dei dati personali ai sensi del D. Lgs. 196/2003, fatti salvi i tempi
+					necessari per lo svolgimento delle operazioni tecniche a ciÃ² conseguenti che non potranno comunque superare i 30 giorni dalla data della suddetta comunicazione di
+					recesso. 8.4 L'Utente Ã¨ informato dell'impossibilitÃ  di cedere le presenti CGC a terzi, a titolo gratuito o oneroso, temporaneamente o definitivamente, senza il
+					consenso scritto di Italiaonline. Al contrario Italiaonline potrÃ  cedere in qualsiasi momento le presenti CGC a terzi, senza consenso scritto dell'Utente. 9.
+					Protezione dei dati personali 9.1 In relazione al trattamento dei dati personali dellâUtente connesso allâerogazione dei Servizi di cui al presente Contratto,
+					Italiaonline, in qualitÃ  di Titolare, si impegna, per le attivitÃ  di propria competenza, a conformarsi alle disposizioni del d.lgs. n. 196/2003 - Codice Privacy e ad
+					adempiere a tutti gli obblighi ivi previsti, anche per i profili relativi alla riservatezza, segretezza e sicurezza dei dati personali e delle comunicazioni
+					elettroniche, relativamente alle attivitÃ  ed operazioni di trattamento connesse o occasionate dalla esecuzione del presente Contratto e dei connessi adempimenti
+					normativi. 9.2 Con lâaccettazione delle presenti condizioni generali di contratto lâUtente dichiara espressamente di aver preso visione dellâinformativa privacy
+					relativa al trattamento dei dati personali che lo riguardano e della Privacy Policy del portale www.libero.it, che costituiscono parte integrante del presente
+					Contratto e che sono riportate entrambe nei rispettivi link presenti nellâapposita sezione del portale www.libero.it. 9.3 Riguardo al trattamento di dati personali
+					anche di terzi effettuato dallâUtente nellâambito dellâutilizzo dei Servizi, il medesimo Utente dichiara di essere edotto e consapevole che le disposizioni del
+					Codice Privacy non sono applicabili nei confronti del trattamento dei dati personali effettuato dallo stesso Utente, quale persona fisica, per fini esclusivamente
+					personali o familiari, ad eccezione delle operazioni di comunicazione sistematica o diffusione dei dati personali che rimangono invece pienamente assoggettate alle
+					disposizioni del Codice Privacy. In proposito, qualunque trasmissione, pubblicazione, diffusione, da parte dellâUtente, di contenuti in cui siano presenti dati
+					personali dovrÃ  avvenire nel pieno rispetto della normativa vigente in materia di protezione dei dati personali. In ogni caso, lâUtente dichiara e garantisce che i
+					dati personali anche di terzi dallo stesso Utente immessi, portati a conoscenza, resi disponibili, divulgati, diffusi o pubblicati nellâambito dei Servizi di cui al
+					presente Contratto sono acquisiti e trattati dal medesimo Utente nel pieno rispetto delle disposizioni del Codice Privacy, anche con riferimento allâadempimento
+					degli obblighi di informativa agli interessati e di raccolta del consenso, ove necessario, e, conseguentemente, sono lecitamente utilizzabili da parte di Italiaonline
+					per la erogazione dei Servizi richiesti dallâUtente nelle forme e nei limiti di cui alle presenti condizioni generali di contratto. 9.4 L'Utente riconosce che
+					l'invio volontario e la pubblicazione da parte sua di proprie immagini ed informazioni per la pubblicazione sul Portale Libero, costituisce una sua autonoma attivitÃ 
+					riconducibile esclusivamente alla responsabilitÃ  del medesimo Utente, che puÃ² comportare un trattamento di dati personali riferiti allâUtente stesso e/o a terzi
+					effettuato da Italiaonline solo ai fini dellâerogazione dei Servizi richiesti, ai sensi e per gli effetti dell'articolo 24 del Codice Privacy. Inoltre l'Utente
+					dichiara e garantisce di aver acquisito dagli interessati tutti i consensi necessari ai sensi del Codice Privacy e le autorizzazioni necessarie ai sensi della
+					normative vigenti anche in materia di diritto dâautore qualora il materiale di cui si richiede la pubblicazione contenga dati personali di terzi, anche in forma di
+					immagini e/o suoni. 9.5 Le Parti, Italiaonline e Utente, si impegnano a mantenersi reciprocamente indenni e manlevate per ogni danno, onere, costo, spesa e/o pretesa
+					di terzi eventualmente derivante dalla violazione da parte di ciascuna di esse degli obblighi di cui al presente articolo. 10. CLAUSOLA RISOLUTIVA ESPRESSA 10.1 Ogni
+					accertato o solo presunto utilizzo dei Servizi in violazione di quanto stabilito dalle vigenti normative o nei precedenti articoli 2 (Condizioni Che Regolano
+					L'utilizzazione Dei Servizi), 3 (ModalitÃ  Di Utilizzo Dei Servizi) e 5 (Doveri ResponsabilitÃ  E Garanzie Degli Utenti) potrÃ  determinare, ai sensi e per gli effetti
+					di cui all'articolo 1456 c.c., la risoluzione con effetto immediato delle presenti CGC, comunicata a mezzo e-mail inviata all'Utente, e la conseguente interruzione
+					dell'erogazione dei Servizi, fatto salvo il diritto per Italiaonline al risarcimento del danno. 11. COMUNICAZIONI 11.1 Gli Utenti potranno contattare direttamente
+					Italiaonline per eventuali richieste di supporto tecnico sui Servizi seguendo le istruzioni presenti al seguente indirizzo: http://aiuto.libero.it/. 12. LEGGE
+					APPLICABILE E FORO COMPETENTE 12.1 Per le controversie che dovessero insorgere nell'interpretazione e nell'esecuzione delle presenti CGC sarÃ  applicabile
+					esclusivamente la Legge italiana. Il Foro competente sarÃ  quello del luogo di residenza o del domicilio elettivo del consumatore cosÃ¬ come definito ai sensi
+					dell'art. 1469bis del Codice Civile. 12.2 Nel caso in cui l'Utente sia un soggetto diverso dal consumatore il Foro competente sarÃ  determinato sulla base delle norme
+					di legge vigenti. 13. RINVIO 13.1 Per quanto non espressamente previsto nelle presenti CGC troveranno applicazione, laddove previsto le condizioni speciali e le norme
+					di legge vigenti. Il presente documento sarÃ  soggetto ad aggiornamenti. Si invita, pertanto, lâutente a visitare periodicamente questa sezione del nostro sito per
+					prendere visione di eventuali variazioni o integrazioni. Documento aggiornato al 20 Giugno 2016.
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div class="footer">
+		<div class="container">
+			<div class="text-center py-3 lead">
+				Copyright © 2018 - Cuista
+				<p class="lead">
+					Visita la mia <a href="https://github.com/cuista" target="_blank"> Pagina GitHub </a> <br> per visionare altri miei progetti
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- SCRIPT -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

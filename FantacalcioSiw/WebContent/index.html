@@ -15,7 +15,7 @@
 	<!-- NAV-BAR -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #292054;">
 		<div class="container">
-			<span class="navbar-brand" href="#"> <img id="brand" src="img/brand3.svg" width="40" height="40" class="d-inline-block align-top" alt="">Fantacalcio
+			<span class="navbar-brand" href="#"> <img id="brand" src="img/brand_bianco.svg" width="40" height="40" class="d-inline-block align-top" alt="">
 			</span>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 				aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
 
 				<!-- ITEMs DI SINISTRA -->
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="index.html">Home <span class="sr-only">(current)</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="gestioneSquadra.html">Gestione Squadra</a></li>
 					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 						aria-expanded="false"> Dropdown </a>
@@ -48,8 +48,8 @@
     
     <!-- ITEMs DI DESTRA -->
 				<ul class="navbar-nav my-2 my-lg-0">
-					<li class="nav-item"><a class="nav-link" href="#">Log in <span class="sr-only">(current)</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Registrati</a></li>
+					<li class="nav-item"><a class="nav-link" href="login.html">Log in <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="registrazione.html">Registrati</a></li>
 					<li class="nav-item active dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 						aria-expanded="false"> Utente </a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -66,19 +66,19 @@
 	<div id="carousel" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active" style="background-image: url(img/celebration.jpg);">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-block">
 					<button type="button" class="btn btn-lg btn-primary">Inizia</button>
 					<p class="lead">Spendi tanti Fantamilioni e crea il tuo team dei sogni!</p>
 				</div>
 			</div>
 			<div class="carousel-item" style="background-image: url(img/stadium.jpg);">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-block">
 					<button type="button" class="btn btn-lg btn-success">Partecipa</button>
 					<p class="lead">Scegli tra i campionati disponibili e sfida i tuoi amici!</p>
 				</div>
 			</div>
 			<div class="carousel-item" style="background-image: url(img/victory.jpg);">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-block">
 					<button type="button" class="btn btn-lg btn-warning">Crea</button>
 					<p class="lead">Inventa un campionato tutto su misura per te!</p>
 				</div>
@@ -96,14 +96,25 @@
 		<!-- PRIMA RIGA DIVISA IN 3 PARTI -->
 		<div class="row">
 			<div class="col-md-3 col-sm-5 offset-md-1">
-				<h3>TEXT1</h3>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-					veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-					eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="box-info">
+					<h3>TEXT1</h3>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+						veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 			</div>
 
 			<div class="col-md-7 col-sm-7">
 
+				<div class="box-info">
+					<h3>TEXT2</h3>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+						veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				
+				<hr>
+				
 				<!-- JUMBOTRON -->
 				<div class="jumbotron">
 					<h1 class="display-4">Hello, world!</h1>
@@ -114,11 +125,7 @@
 						<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 					</p>
 				</div>
-
-				<h3>TEXT2</h3>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-					veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-					eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				
 			</div>
 		</div>
 		<!-- FINE PRIMA RIGA -->
