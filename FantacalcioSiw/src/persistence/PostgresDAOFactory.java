@@ -10,7 +10,7 @@ class PostgresDAOFactory extends DAOFactory {
 
 	//INFO fabbrica concreta oggetti DAO
 	
-	private static  DataSource dataSource;
+	private static DataSource dataSource;
 	
 
 	// --------------------------------------------

@@ -8,16 +8,13 @@ public class Utente {
 	private int fantaCampionati_vinti;
 	private int fantaCampionati_giocati;
 	
-	public Utente() {
-	}
-	
-	public Utente (String username,String mail,String password,int fantaCampionati_vinti,int fantaCampionati_giocati)
+	public Utente (String username,String mail,String password)
 	{
 		this.username=username;
 		this.mail=mail;
 		this.password=password;
-		this.fantaCampionati_vinti=fantaCampionati_vinti;
-		this.fantaCampionati_giocati=fantaCampionati_giocati;
+		fantaCampionati_vinti=0;
+		fantaCampionati_giocati=0;
 	}
 
 	public String getUsername() {

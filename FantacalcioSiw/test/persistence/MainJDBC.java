@@ -34,10 +34,10 @@ public class MainJDBC
 		UtenteDao utenteDao = factory.getUtenteDAO();
 
 		//INSTANCES UTENTE,GIOCATORE,FANTACAMPIONATO E SQUADRA
-		Utente destiny= new Utente("destiny", "destiny@gmail.com", "berlusconiErMeglio", 0, 0);
-		Utente chimera= new Utente("chimera", "chimera@gmail.com", "salvenee", 0, 0);
-		Utente fragola86= new Utente("fragola86", "fragola86@gmail.com", "pompei", 0, 0);
-		Utente banana33= new Utente("banana33", "banana33@gmail.com", "cetriolo", 0, 0);
+		Utente destiny= new Utente("destiny", "destiny@gmail.com", "berlusconiErMeglio");
+		Utente chimera= new Utente("chimera", "chimera@gmail.com", "salvenee");
+		Utente fragola86= new Utente("fragola86", "fragola86@gmail.com", "pompei");
+		Utente banana33= new Utente("banana33", "banana33@gmail.com", "cetriolo");
 		
 		Giocatore andrea_silva= new Giocatore("Andrea Silva", "milan", "seriaA", "att", 30);
 		Giocatore mauro_icardi= new Giocatore("Mauro Icardi", "inter", "seriaA", "att", 30);

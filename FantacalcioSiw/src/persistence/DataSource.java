@@ -6,7 +6,7 @@ class DataSource {
 	
 	//INFO connette con il database
 	
-	final private String dbURI;// = "jdbc:postgresql://localhost/test";
+	final private String dbURI;// = "jdbc:postgresql://localhost:5432/FantacalcioSiw";
 	final private String userName;// = "postgres";
 	final private String password;// = "root";
 	

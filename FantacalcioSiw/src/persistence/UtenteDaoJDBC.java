@@ -71,7 +71,7 @@ public class UtenteDaoJDBC implements UtenteDao {
 			ResultSet result = statement.executeQuery();
 			if (result.next())
 			{
-				utente = new Utente(result.getString("username"), result.getString("mail"),result.getString("password"),result.getInt("fantacampionati_vinti"),result.getInt("fantacampionati_giocati"));
+				utente = new Utente(result.getString("username"), result.getString("mail"),result.getString("password"));
 			}
 		} catch (SQLException e)
 		{
@@ -92,6 +92,7 @@ public class UtenteDaoJDBC implements UtenteDao {
 	@Override
 	public List<Utente> findAll() {
 		Connection connection = this.dataSource.getConnection();
+		if(connection==null)System.out.println("è NULL DIO PORCO");
 		List<Utente> lista_utenti = new LinkedList<>();
 		try
 		{
@@ -101,7 +102,7 @@ public class UtenteDaoJDBC implements UtenteDao {
 			ResultSet result = statement.executeQuery();
 			while (result.next())
 			{
-				Utente utente = new Utente(result.getString("username"), result.getString("mail"),result.getString("password"),result.getInt("fantacampionati_vinti"),result.getInt("fantacampionati_giocati"));
+				Utente utente = new Utente(result.getString("username"), result.getString("mail"),result.getString("password"));
 
 				lista_utenti.add(utente);
 			}
